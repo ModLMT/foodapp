@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFE"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <ImageView
+        android:layout_width="266dp"
+        android:layout_height="260dp"
+        android:src="@drawable/logomoi"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="TT FOOD"
+        android:textColor="#E73F0B"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_marginTop="35dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>

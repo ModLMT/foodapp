@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="logo" type="id" />
+    <item name="setting" type="id" />
+    <item name="donhang" type="id" />
+</resources>
